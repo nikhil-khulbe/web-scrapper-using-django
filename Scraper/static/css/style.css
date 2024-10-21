@@ -1,0 +1,40 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  margin: 10px;
+  flex-direction: column;
+  gap: 10px;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: aqua;
+}
+
+div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+input{
+  padding: 10px;
+  border-radius: 25px;
+}
+
+button{
+  padding: 10px;
+  border-radius: 25px;
+}
+
+button:hover{
+  background-color: aquamarine;
+  cursor: pointer;
+}
